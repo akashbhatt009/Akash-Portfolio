@@ -74,7 +74,7 @@ st.markdown("""
     <div class="hero">
         <h1 style="font-size: 4em; font-weight: 800; margin-bottom: 20px;">Akash Bhatt</h1>
         <p style="font-size: 1.4em; font-weight: 400; max-width: 850px; margin: 0 auto; color: #3c4043;">
-            <b>Strategic Product Owner & Business Analyst.</b><br>
+            <b>.</b><br>
             Architecting data-driven solutions to optimize product lifecycles, 
             streamline stakeholder alignment, and maximize ROI through 
             quantitative prioritization frameworks.
