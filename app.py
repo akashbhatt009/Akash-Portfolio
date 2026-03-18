@@ -1,134 +1,142 @@
 import streamlit as st
 
-# --- 1. CONFIG & ELITE APPLE/GEMINI UI ---
-st.set_page_config(page_title="Akash | AI Product Portfolio", layout="wide", page_icon="💎")
+# --- 1. CONFIG & EXECUTIVE UI ---
+st.set_page_config(page_title="Akash Bhatt | Strategic Product Portfolio", layout="wide", page_icon="🏛️")
 
 st.markdown("""
     <style>
-    /* Ultra-Clean White Theme */
     .stApp { background-color: #ffffff; color: #1d1d1f; }
     
-    /* Hero Section - Apple Style */
+    /* Executive Hero Section */
     .hero {
-        padding: 80px 20px;
+        padding: 90px 20px;
         text-align: center;
-        background: radial-gradient(circle at center, #f5f5f7 0%, #ffffff 100%);
+        background: radial-gradient(circle at center, #f8f9fa 0%, #ffffff 100%);
         border-radius: 40px;
         margin-bottom: 50px;
+        border: 1px solid #f1f3f4;
     }
     
-    /* Project Cards with Glassmorphism Hover */
+    /* High-Value Project Cards */
     .project-card {
         background: #ffffff;
-        padding: 35px;
-        border-radius: 24px;
-        border: 1px solid #e0e0e0;
-        transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        padding: 40px;
+        border-radius: 28px;
+        border: 1px solid #e8eaed;
+        transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
     .project-card:hover {
-        transform: translateY(-12px);
-        box-shadow: 0 30px 60px rgba(0,0,0,0.08);
+        transform: translateY(-15px);
+        box-shadow: 0 40px 80px rgba(0,0,0,0.06);
         border-color: #1a73e8;
     }
     
     .status-tag {
         font-size: 0.75em;
-        background: #e8f0fe;
-        color: #1a73e8;
-        padding: 5px 14px;
+        background: #f1f3f4;
+        color: #3c4043;
+        padding: 6px 16px;
         border-radius: 30px;
-        font-weight: 700;
-        letter-spacing: 0.5px;
+        font-weight: 800;
+        letter-spacing: 0.8px;
         display: inline-block;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
+        border: 1px solid #dadce0;
     }
 
-    h1, h2 { color: #1d1d1f; font-family: 'SF Pro Display', sans-serif; }
-    p { color: #515154; line-height: 1.6; }
+    h1, h2 { color: #202124; font-family: 'Inter', sans-serif; letter-spacing: -0.5px; }
+    p { color: #5f6368; line-height: 1.7; font-size: 1.05em; }
 
-    /* Custom Button Styling */
+    /* Action Button Styling */
     .stButton>button {
-        background: #1d1d1f;
+        background: #202124;
         color: white;
-        border-radius: 12px;
+        border-radius: 14px;
         border: none;
-        padding: 10px 25px;
-        font-weight: 500;
+        padding: 12px 30px;
+        font-weight: 600;
         width: 100%;
-        transition: background 0.3s;
+        transition: all 0.3s;
     }
     .stButton>button:hover {
         background: #1a73e8;
-        color: white;
+        transform: scale(1.02);
     }
     </style>
     """, unsafe_allow_html=True)
 
-# --- 2. HERO SECTION ---
+# --- 2. EXECUTIVE HERO SECTION ---
 st.markdown("""
     <div class="hero">
-        <h1 style="font-size: 3.5em; font-weight: 800; letter-spacing: -1px; margin-bottom: 15px;">Akash</h1>
-        <p style="font-size: 1.3em; font-weight: 400; max-width: 800px; margin: 0 auto; color: #515154;">
-            AI Product Strategist & Developer. <br>
-            Engineering decision-intelligence tools that bridge high-level 
-            business frameworks with advanced data architectures.
+        <h1 style="font-size: 4em; font-weight: 800; margin-bottom: 20px;">Akash Bhatt</h1>
+        <p style="font-size: 1.4em; font-weight: 400; max-width: 850px; margin: 0 auto; color: #3c4043;">
+            <b>Strategic Product Owner & Business Analyst.</b><br>
+            Architecting data-driven solutions to optimize product lifecycles, 
+            streamline stakeholder alignment, and maximize ROI through 
+            quantitative prioritization frameworks.
         </p>
     </div>
     """, unsafe_allow_html=True)
 
-# --- 3. PROJECT GRID ---
-st.markdown("<h3 style='margin-bottom:30px; text-align:center;'>Deployments</h3>", unsafe_allow_html=True)
+# --- 3. STRATEGIC DEPLOYMENTS ---
+st.markdown("<h3 style='margin-bottom:40px; text-align:center; font-weight:700;'>Executive Product Suite</h3>", unsafe_allow_html=True)
 col1, col2 = st.columns(2, gap="large")
 
 with col1:
     st.markdown("""
         <div class="project-card">
             <div>
-                <span class="status-tag">Live: Fintech Analytics</span>
+                <span class="status-tag">FINANCIAL INTELLIGENCE</span>
                 <h2>Quantum AI</h2>
                 <p>
-                    A predictive market intelligence engine. Designed to analyze complex financial 
-                    datasets and synthesize real-time investment insights through advanced 
-                    mathematical modeling.
+                    A decision-support engine for high-stakes financial environments. 
+                    Translates complex market volatility into actionable <b>Business Intelligence</b>, 
+                    enabling stakeholders to identify alpha opportunities through predictive 
+                    visualization and risk-modeling.
                 </p>
-                <p style="font-size: 0.8em; color: #8e8e93; font-weight: 600;">STACK: PYTHON • PREDICTIVE MODELING • PLOTLY</p>
+                <p style="font-size: 0.85em; color: #1a73e8; font-weight: 700; margin-top: 15px;">
+                    DOMAIN: FINTECH • PREDICTIVE ANALYTICS • DATA ARCHITECTURE
+                </p>
             </div>
         </div>
     """, unsafe_allow_html=True)
-    st.link_button("Launch Quantum AI", "https://quantum-ai.streamlit.app/")
+    st.link_button("Review Quantum AI", "https://quantum-ai.streamlit.app/")
 
 with col2:
     st.markdown("""
         <div class="project-card">
             <div>
-                <span class="status-tag">Live: Strategic Product</span>
+                <span class="status-tag">STRATEGIC GOVERNANCE</span>
                 <h2>Quantum Stratagem</h2>
                 <p>
-                    An elite prioritization engine for Product Owners. Implements dual-logic 
-                    frameworks (RICE & WSJF) to transform raw venture goals into 
-                    structured, economic-priority roadmaps.
+                    A digital governance tool for <b>Backlog Prioritization</b>. Implements 
+                    standardized RICE and WSJF (Weighted Shortest Job First) frameworks 
+                    to quantify "Value vs. Effort," ensuring delivery teams focus on 
+                    highest-impact business outcomes.
                 </p>
-                <p style="font-size: 0.8em; color: #8e8e93; font-weight: 600;">STACK: BI LOGIC • ROADMAP SYNTHESIS • DATA EDITOR</p>
+                <p style="font-size: 0.85em; color: #1a73e8; font-weight: 700; margin-top: 15px;">
+                    DOMAIN: PRODUCT GOVERNANCE • SAFe • AGILE ROADMAPPING
+                </p>
             </div>
         </div>
     """, unsafe_allow_html=True)
-    st.link_button("Launch Quantum Stratagem", "https://quantum-stratagem-ai.streamlit.app/")
+    st.link_button("Review Quantum Stratagem", "https://quantum-stratagem-ai.streamlit.app/")
 
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.markdown("---")
 
-# --- 4. CONTACT & FOOTER ---
+# --- 4. CONTACT & GOVERNANCE ---
 c1, c2, c3 = st.columns(3)
 with c1:
-    st.markdown("**LinkedIn** \n[View Profile](https://linkedin.com/in/your-profile)") # Update this link
+    st.markdown("**Strategic Alignment** \n[LinkedIn Profile](https://linkedin.com/in/your-profile)") 
 with c2:
-    st.markdown("**GitHub** \n[Source Code](https://github.com/your-username)") # Update this link
+    st.markdown("**Solution Repository** \n[GitHub Architectures](https://github.com/your-username)") 
 with c3:
-    st.markdown("**Location** \nGlobal / Remote")
+    st.markdown("**Core Philosophy** \nData-Informed Decision Making")
 
 st.markdown("<br>", unsafe_allow_html=True)
-st.caption("© 2026 Akash | Lead Architect | Built with Python 3.11")
+st.caption("© 2026 Akash Bhatt | Strategic Solutions Architect | Optimized for Executive Review")
