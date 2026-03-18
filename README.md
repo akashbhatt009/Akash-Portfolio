@@ -10,7 +10,7 @@ Welcome to my executive deployment hub. This repository serves as the centralize
 This portfolio acts as a sophisticated "front door" to my specialized work in **Fintech Analytics** and **Product Strategy**. By centralizing these deployments, I provide stakeholders with a unified view of how logic-driven systems can optimize organizational decision-making.
 
 ### 🔗 Live Interface
-**[Launch Akash Portfolio](https://akash-portfolio.streamlit.app/)** *(Note: Replace with your live Streamlit URL once deployed)*
+**[[Launch Akash Portfolio](https://akash-portfolio.streamlit.app/)**
 
 ---
 
