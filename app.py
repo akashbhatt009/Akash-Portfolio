@@ -141,7 +141,7 @@ with contact_col2:
     st.markdown("""
         <div style="background-color: #f8f9fa; padding: 25px; border-radius: 15px; border: 1px solid #e8eaed; text-align: center;">
             <p style="margin-bottom: 10px;"><b>Akash Bhatt</b></p>
-            <p style="margin-bottom: 10px; color: #5f6368;">Strategic Product Owner & Business Analyst</p>
+            <p style="margin-bottom: 10px; color: #5f6368;"></p>
             <hr style="margin: 15px 0;">
             <p style="font-size: 1.1em;">📧 <b>akashbhatt009@gmail.com</b></p>
             <p style="font-size: 0.9em; color: #1a73e8; margin-top: 10px;"></p>
