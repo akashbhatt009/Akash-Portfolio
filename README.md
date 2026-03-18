@@ -45,6 +45,4 @@ This portfolio acts as a sophisticated "front door" to my specialized work in **
 
 ---
 
-## 📬 Professional Contact
-* **LinkedIn:** [Your LinkedIn URL]
-* **Portfolio:** [Your Portfolio URL]
+
